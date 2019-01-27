@@ -1,0 +1,16 @@
+﻿#그래픽 파일 전송금지
+scss/
+work/
+**/*.psd
+**/*.ai
+**/*.eps
+
+# node_modules 폴더
+**/node_modules 폴더
+**/not_ignore
+**/*.config
+**/notIgnore
+
+# mac
+**/*.sketch
+**/.DS_store
