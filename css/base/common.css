@@ -1,0 +1,119 @@
+/* common.css */
+.clearfix:after{content:" "; display:block; clear:both;}
+.clearfix::after{content:" "; display:block; clear:both;}
+
+.hidden_wrap span,
+.hidden_wrap a>span,
+.hidden{display: block; overflow: hidden; position: absolute; z-index: -1; width: 0; height: 0;}
+.hidden_wrap a{display:block; width:100%; height:100%;}
+
+.backimg{background-repeat: no-repeat; background-position: center; background-size: cover;}
+
+#wrap ul>.first,
+#wrap ol>.first{margin-left:0; border-left:0;}
+#wrap ul>.last,
+#wrap ol>.last{margin-right:0; border-right:0;}
+#wrap ul>.top,
+#wrap ol>.top{margin-top:0; border-top:0;}
+#wrap ul>.bottom,
+#wrap ol>.bottom{margin-bottom:0; border-bottom:0;}
+
+.wrap{width: 100%; height: auto;}
+.wrap_full{width: 100%; min-width: 960px; height: auto; margin: 0 auto;}
+.wrap:after,.wrap_full:after{content:" "; display: block; clear:both;}
+
+
+
+/* accessibility.css */
+/*a:focus, button:focus,
+input[type="submit"]:focus,
+input[type="reset"]:focus,
+input[type="image"]:focus,
+input[type="file"]:focus,
+input[type="button"]:focus{outline:2px solid #2B52A0; outline-offset: 3px; background-color:#2B52A0; color:#fff; }*/
+
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+input[type="number"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="year"]:focus,
+input[type="week"]:focus,
+input[type="url"]:focus,
+textarea:focus{outline:2px solid #2B52A0; outline-offset: 3px;
+              background-color: #2B52A0;}
+
+/* grid_responsive.css */
+.row{width: auto; height: auto;}
+.row:after{content:" "; display: block; clear:both;}
+
+
+@media screen and (max-width:480px){
+.mob_1{float:left; width:16.666667%;}
+.mob_2{float:left; width:33.333333%;}
+.mob_3{float:left; width:50%;}
+.mob_4{float:left; width:66.666667%;}
+.mob_5{float:left; width:83.333333%;}
+.mob_6{float:left; width:100%;}
+}
+@media screen and (min-width:481px){
+.tab_v_1{float:left; width:11.111111%;}
+.tab_v_2{float:left; width:22.222222%;}
+.tab_v_3{float:left; width:33.333333%;}
+.tab_v_4{float:left; width:44.444444%;}
+.tab_v_5{float:left; width:55.555556%;}
+.tab_v_6{float:left; width:66.666667%;}
+.tab_v_7{float:left; width:77.777778%;}
+.tab_v_8{float:left; width:88.888889%;}
+.tab_v_9{float:left; width:100%;}
+}
+@media screen and (min-width:768px){
+.tab_pc_1{float:left; width:8.333333%;}
+.tab_pc_2{float:left; width:16.66666667%;}
+.tab_pc_3{float:left; width:25%;}
+.tab_pc_4{float:left; width:33.33333333%;}
+.tab_pc_5{float:left; width:41.66666667%;}
+.tab_pc_6{float:left; width:50%;}
+.tab_pc_7{float:left; width:58.33333333%;}
+.tab_pc_8{float:left; width:66.66666667%;}
+.tab_pc_9{float:left; width:75%;}
+.tab_pc_10{float:left; width:83.33333333%;}
+.tab_pc_11{float:left; width:91.66666667%;}
+.tab_pc_12{float:left; width:100%;}
+}
+@media screen and (min-width:1367px){
+.pc_full_1{float:left; width:8.333333%;}
+.pc_full_2{float:left; width:16.66666667%;}
+.pc_full_3{float:left; width:25%;}
+.pc_full_4{float:left; width:33.33333333%;}
+.pc_full_5{float:left; width:41.66666667%;}
+.pc_full_6{float:left; width:50%;}
+.pc_full_7{float:left; width:58.33333333%;}
+.pc_full_8{float:left; width:66.66666667%;}
+.pc_full_9{float:left; width:75%;}
+.pc_full_10{float:left; width:83.33333333%;}
+.pc_full_11{float:left; width:91.66666667%;}
+.pc_full_12{float:left; width:100%;}
+}
+
+
+/* loading 화면만들기 */
+body.loading:before{content:"\f1e3"; font-family:fontawesome; color:#f06;
+  animation:spin 3s infinite ease; 
+  display: block; width: 3rem; height: 3rem;
+  text-align: center; line-height:3rem; font-size: 3rem;
+  position: fixed; top: 50%; margin-top: -1.5rem; left: 50%; margin-left: -1.5rem;
+  z-index:2000;}
+body.loading:after{content:"loading...."; display: block; width: 100%; height: 100%; 
+position: fixed; top:0; left:0; z-index:1900; background-color: #0cc;
+box-sizing:border-box; padding-top: 50%; text-align: center;}
+
+@keyframes spin {
+  0%{transform:rotate(0);}
+  50%{color:#fa0;}
+  100%{transform:rotate(720deg);}
+}
