@@ -1,0 +1,151 @@
+/* project_boolatoon.css */
+body,html{width: 100%; height: 100%; font-family: 'NanumBarunGothic', 'serif'}
+#wrap{width: 100%; height: auto; background-color: #333;}
+#headBox{
+  position: relative;
+  width: 100%;
+  height: 90px;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #ececec;
+}
+#headBox h1{
+  float: left;
+  width: 150px;
+  height: 50px;
+  background-color: #232323;
+}
+#headBox h1 a{
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+#headBox .page_name{
+  position: absolute;
+  width: 400px;
+  height: 50px;
+  top: 0;
+  left: 50%;
+  margin-top: 20px;
+  margin-left: -500px;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 50px;
+}
+#headBox .page_name::selection{
+  background-color: #333;
+  color: #fff;
+}
+#headBox button{
+  float: right;
+  width: 150px;
+  height: 50px;
+  background-color: #232323;
+  font-size: 13px;
+  color: #fff;
+}
+/* //headBox */
+section{
+  width: 1000px;
+  height: auto;
+  margin: 0 auto;
+  background-color: #ddd;
+}
+section>div{
+  width: 100%;
+  height: auto;
+  background-color: #333;
+}
+/* 수정할부분 */
+.section_01{
+  height: 1027px;
+}
+/* .intro_wrap */
+.intro_wrap{
+  width: 100%;
+  height: auto;
+  color: #aaa;
+  padding: 30px 0 100px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.intro_role{
+  float: left;
+  width: 500px;
+  height: auto;
+}
+.intro_pro{
+  float: right;
+  width: 500px;
+  height: 100%;
+}
+.intro_role dl,
+.intro_pro dl{
+  width: 100%;
+  height: 100%;
+}
+.intro_role dl dt,
+.intro_pro dl dt{
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 36px;
+}
+.intro_role dl dd,
+.intro_pro dl dd{
+  font-size: 14px;
+  line-height: 22px;
+  margin-bottom: 50px;
+}
+.intro_role p,
+.intro_pro p{
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 40px;
+}
+.intro_link{
+  width: 100%;
+  height: 60px;
+  color: #000;
+}
+.intro_link a{
+  display: block;
+  float: left;
+  width: 210px;
+  height: 60px;
+  margin-right: 40px;
+  background-color: #fff;
+  line-height: 60px;
+  text-align: center;
+}
+.intro_role dl dt::selection,
+.intro_pro dl dt::selection{
+  background-color: #232323;
+  color: #fff;
+}
+.intro_role dl dd::selection,
+.intro_pro dl dd::selection{
+  background-color: #232323;
+  color: #fff;
+}
+.intro_role dl dd br::selection,
+.intro_pro dl dd br::selection{
+  background-color: #232323;
+  color: #fff;
+}
+.intro_role p::selection,
+.intro_pro p::selection{
+  background-color: #232323;
+  color: #fff;
+}
+.intro_role a::selection,
+.intro_pro a::selection{
+  background-color: #232323;
+  color: #fff;
+}
+.intro_role span::selection,
+.intro_pro span::selection{
+  background-color: #232323;
+  color: #8a2be2;
+}
+/* //.intro_wrap */

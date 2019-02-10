@@ -1,0 +1,75 @@
+/* project_boolatoon_branding.css */
+body,html{width: 100%; height: 100%; font-family: 'NanumBarunGothic', 'serif'}
+#wrap{width: 100%; height: auto; background-color: #333;}
+#headBox{
+  position: relative;
+  width: 100%;
+  height: 90px;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #ececec;
+}
+#headBox h1{
+  float: left;
+  width: 150px;
+  height: 50px;
+  background-color: #232323;
+}
+#headBox h1 a{
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+#headBox .page_name{
+  position: absolute;
+  width: 400px;
+  height: 50px;
+  top: 0;
+  left: 50%;
+  margin-top: 20px;
+  margin-left: -500px;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 50px;
+}
+#headBox .page_name::selection{
+  background-color: #333;
+  color: #fff;
+}
+#headBox button{
+  float: right;
+  width: 150px;
+  height: 50px;
+  background-color: #232323;
+  font-size: 13px;
+  color: #fff;
+}
+/* //headBox */
+section{
+  width: 1000px;
+  height: auto;
+  margin: 0 auto;
+  background-color: #ddd;
+}
+section>div{
+  width: 100%;
+  height: auto;
+  background-color: #333;
+}
+.intro_wrap{
+  width: 100%;
+  height: auto;
+  padding: 30px 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 40px;
+  color: #aaa;
+}
+.intro_wrap p::selection,
+.intro_wrap br::selection{
+  background-color: #232323;
+  color: #fff;
+}

@@ -276,144 +276,125 @@ body,html{width: 100%; height: 100%;}
 .list_wrap ul li:hover a dl .ygenter>div:nth-of-type(8)>.text_after{left: 0;}
 .list_wrap ul li:hover a dl .ygenter>div:nth-of-type(8)>.text_before{left: 33px;}
 
-/* knowhow */
-.list_wrap ul li a dl .knowhow{
-  margin-left: 43px;
+/* boolatoon */
+.list_wrap ul li a dl .boolatoon{
+  margin-left: 38px;
 }
 /* 1 */
-.list_wrap ul li a dl .knowhow>div:nth-of-type(1){width: 33px;}
-.list_wrap ul li a dl .knowhow>div:nth-of-type(1)>.text_after{left: -33px;}
-.list_wrap ul li:hover a dl .knowhow>div:nth-of-type(1)>.text_after{left: 0;}
-.list_wrap ul li:hover a dl .knowhow>div:nth-of-type(1)>.text_before{left: 33px;}
+.list_wrap ul li a dl .boolatoon>div:nth-of-type(1){width: 32px;}
+.list_wrap ul li a dl .boolatoon>div:nth-of-type(1)>.text_after{left: -32px;}
+.list_wrap ul li:hover a dl .boolatoon>div:nth-of-type(1)>.text_after{left: 0;}
+.list_wrap ul li:hover a dl .boolatoon>div:nth-of-type(1)>.text_before{left: 32px;}
 /* 2 */
-.list_wrap ul li a dl .knowhow>div:nth-of-type(2){width: 40px;}
-.list_wrap ul li a dl .knowhow>div:nth-of-type(2)>.text_after{left: -40px;}
-.list_wrap ul li:hover a dl .knowhow>div:nth-of-type(2)>.text_after{left: 0;}
-.list_wrap ul li:hover a dl .knowhow>div:nth-of-type(2)>.text_before{left: 40px;}
+.list_wrap ul li a dl .boolatoon>div:nth-of-type(2){width: 39px;}
+.list_wrap ul li a dl .boolatoon>div:nth-of-type(2)>.text_after{left: -39px;}
+.list_wrap ul li:hover a dl .boolatoon>div:nth-of-type(2)>.text_after{left: 0;}
+.list_wrap ul li:hover a dl .boolatoon>div:nth-of-type(2)>.text_before{left: 39px;}
 /* 3 */
-.list_wrap ul li a dl .knowhow>div:nth-of-type(3){width: 39px;}
-.list_wrap ul li a dl .knowhow>div:nth-of-type(3)>.text_after{left: -39px;}
-.list_wrap ul li:hover a dl .knowhow>div:nth-of-type(3)>.text_after{left: 0;}
-.list_wrap ul li:hover a dl .knowhow>div:nth-of-type(3)>.text_before{left: 39px;}
+.list_wrap ul li a dl .boolatoon>div:nth-of-type(3){width: 39px;}
+.list_wrap ul li a dl .boolatoon>div:nth-of-type(3)>.text_after{left: -39px;}
+.list_wrap ul li:hover a dl .boolatoon>div:nth-of-type(3)>.text_after{left: 0;}
+.list_wrap ul li:hover a dl .boolatoon>div:nth-of-type(3)>.text_before{left: 39px;}
 /* 4 */
-.list_wrap ul li a dl .knowhow>div:nth-of-type(4){width: 51px;}
-.list_wrap ul li a dl .knowhow>div:nth-of-type(4)>.text_after{left: -51px;}
-.list_wrap ul li:hover a dl .knowhow>div:nth-of-type(4)>.text_after{left: 0;}
-.list_wrap ul li:hover a dl .knowhow>div:nth-of-type(4)>.text_before{left: 51px;}
+.list_wrap ul li a dl .boolatoon>div:nth-of-type(4){width: 28px;}
+.list_wrap ul li a dl .boolatoon>div:nth-of-type(4)>.text_after{left: -28px;}
+.list_wrap ul li:hover a dl .boolatoon>div:nth-of-type(4)>.text_after{left: 0;}
+.list_wrap ul li:hover a dl .boolatoon>div:nth-of-type(4)>.text_before{left: 28px;}
 /* 5 */
-.list_wrap ul li a dl .knowhow>div:nth-of-type(5){width: 21px;}
-.list_wrap ul li a dl .knowhow>div:nth-of-type(5)>.text_after{left: -21px;}
-.list_wrap ul li:hover a dl .knowhow>div:nth-of-type(5)>.text_after{left: 0;}
-.list_wrap ul li:hover a dl .knowhow>div:nth-of-type(5)>.text_before{left: 21px;}
+.list_wrap ul li a dl .boolatoon>div:nth-of-type(5){width: 36px;}
+.list_wrap ul li a dl .boolatoon>div:nth-of-type(5)>.text_after{left: -36px;}
+.list_wrap ul li:hover a dl .boolatoon>div:nth-of-type(5)>.text_after{left: 0;}
+.list_wrap ul li:hover a dl .boolatoon>div:nth-of-type(5)>.text_before{left: 36px;}
 /* 6 */
-.list_wrap ul li a dl .knowhow>div:nth-of-type(6){width: 39px;}
-.list_wrap ul li a dl .knowhow>div:nth-of-type(6)>.text_after{left: -39px;}
-.list_wrap ul li:hover a dl .knowhow>div:nth-of-type(6)>.text_after{left: 0;}
-.list_wrap ul li:hover a dl .knowhow>div:nth-of-type(6)>.text_before{left: 39px;}
+.list_wrap ul li a dl .boolatoon>div:nth-of-type(6){width: 32px;}
+.list_wrap ul li a dl .boolatoon>div:nth-of-type(6)>.text_after{left: -32px;}
+.list_wrap ul li:hover a dl .boolatoon>div:nth-of-type(6)>.text_after{left: 0;}
+.list_wrap ul li:hover a dl .boolatoon>div:nth-of-type(6)>.text_before{left: 32px;}
 /* 7 */
-.list_wrap ul li a dl .knowhow>div:nth-of-type(7){width: 39px;}
-.list_wrap ul li a dl .knowhow>div:nth-of-type(7)>.text_after{left: -39px;}
-.list_wrap ul li:hover a dl .knowhow>div:nth-of-type(7)>.text_after{left: 0;}
-.list_wrap ul li:hover a dl .knowhow>div:nth-of-type(7)>.text_before{left: 39px;}
+.list_wrap ul li a dl .boolatoon>div:nth-of-type(7){width: 39px;}
+.list_wrap ul li a dl .boolatoon>div:nth-of-type(7)>.text_after{left: -39px;}
+.list_wrap ul li:hover a dl .boolatoon>div:nth-of-type(7)>.text_after{left: 0;}
+.list_wrap ul li:hover a dl .boolatoon>div:nth-of-type(7)>.text_before{left: 39px;}
 /* 8 */
-.list_wrap ul li a dl .knowhow>div:nth-of-type(8){width: 51px;}
-.list_wrap ul li a dl .knowhow>div:nth-of-type(8)>.text_after{left: -51px;}
-.list_wrap ul li:hover a dl .knowhow>div:nth-of-type(8)>.text_after{left: 0;}
-.list_wrap ul li:hover a dl .knowhow>div:nth-of-type(8)>.text_before{left: 51px;}
+.list_wrap ul li a dl .boolatoon>div:nth-of-type(8){width: 39px;}
+.list_wrap ul li a dl .boolatoon>div:nth-of-type(8)>.text_after{left: -39px;}
+.list_wrap ul li:hover a dl .boolatoon>div:nth-of-type(8)>.text_after{left: 0;}
+.list_wrap ul li:hover a dl .boolatoon>div:nth-of-type(8)>.text_before{left: 39px;}
+/* 9 */
+.list_wrap ul li a dl .boolatoon>div:nth-of-type(9){width: 40px;}
+.list_wrap ul li a dl .boolatoon>div:nth-of-type(9)>.text_after{left: -40px;}
+.list_wrap ul li:hover a dl .boolatoon>div:nth-of-type(9)>.text_after{left: 0;}
+.list_wrap ul li:hover a dl .boolatoon>div:nth-of-type(9)>.text_before{left: 40px;}
 
-/* legality */
-.list_wrap ul li a dl .legality{
-  margin-left: 84px;
+/* acg */
+.list_wrap ul li a dl .acg{
+  margin-left: 146px;
 }
 /* 1 */
-.list_wrap ul li a dl .legality>div:nth-of-type(1){width: 26px;}
-.list_wrap ul li a dl .legality>div:nth-of-type(1)>.text_after{left: -26px;}
-.list_wrap ul li:hover a dl .legality>div:nth-of-type(1)>.text_after{left: 0;}
-.list_wrap ul li:hover a dl .legality>div:nth-of-type(1)>.text_before{left: 26px;}
+.list_wrap ul li a dl .acg>div:nth-of-type(1){width: 36px;}
+.list_wrap ul li a dl .acg>div:nth-of-type(1)>.text_after{left: -36px;}
+.list_wrap ul li:hover a dl .acg>div:nth-of-type(1)>.text_after{left: 0;}
+.list_wrap ul li:hover a dl .acg>div:nth-of-type(1)>.text_before{left: 36px;}
 /* 2 */
-.list_wrap ul li a dl .legality>div:nth-of-type(2){width: 27px;}
-.list_wrap ul li a dl .legality>div:nth-of-type(2)>.text_after{left: -27px;}
-.list_wrap ul li:hover a dl .legality>div:nth-of-type(2)>.text_after{left: 0;}
-.list_wrap ul li:hover a dl .legality>div:nth-of-type(2)>.text_before{left: 27px;}
+.list_wrap ul li a dl .acg>div:nth-of-type(2){width: 34px;}
+.list_wrap ul li a dl .acg>div:nth-of-type(2)>.text_after{left: -34px;}
+.list_wrap ul li:hover a dl .acg>div:nth-of-type(2)>.text_after{left: 0;}
+.list_wrap ul li:hover a dl .acg>div:nth-of-type(2)>.text_before{left: 34px;}
 /* 3 */
-.list_wrap ul li a dl .legality>div:nth-of-type(3){width: 37px;}
-.list_wrap ul li a dl .legality>div:nth-of-type(3)>.text_after{left: -37px;}
-.list_wrap ul li:hover a dl .legality>div:nth-of-type(3)>.text_after{left: 0;}
-.list_wrap ul li:hover a dl .legality>div:nth-of-type(3)>.text_before{left: 37px;}
-/* 4 */
-.list_wrap ul li a dl .legality>div:nth-of-type(4){width: 36px;}
-.list_wrap ul li a dl .legality>div:nth-of-type(4)>.text_after{left: -36px;}
-.list_wrap ul li:hover a dl .legality>div:nth-of-type(4)>.text_after{left: 0;}
-.list_wrap ul li:hover a dl .legality>div:nth-of-type(4)>.text_before{left: 36px;}
-/* 5 */
-.list_wrap ul li a dl .legality>div:nth-of-type(5){width: 26px;}
-.list_wrap ul li a dl .legality>div:nth-of-type(5)>.text_after{left: -26px;}
-.list_wrap ul li:hover a dl .legality>div:nth-of-type(5)>.text_after{left: 0;}
-.list_wrap ul li:hover a dl .legality>div:nth-of-type(5)>.text_before{left: 26px;}
-/* 6 */
-.list_wrap ul li a dl .legality>div:nth-of-type(6){width: 18px;}
-.list_wrap ul li a dl .legality>div:nth-of-type(6)>.text_after{left: -18px;}
-.list_wrap ul li:hover a dl .legality>div:nth-of-type(6)>.text_after{left: 0;}
-.list_wrap ul li:hover a dl .legality>div:nth-of-type(6)>.text_before{left: 18px;}
-/* 7 */
-.list_wrap ul li a dl .legality>div:nth-of-type(7){width: 30px;}
-.list_wrap ul li a dl .legality>div:nth-of-type(7)>.text_after{left: -30px;}
-.list_wrap ul li:hover a dl .legality>div:nth-of-type(7)>.text_after{left: 0;}
-.list_wrap ul li:hover a dl .legality>div:nth-of-type(7)>.text_before{left: 30px;}
-/* 8 */
-.list_wrap ul li a dl .legality>div:nth-of-type(8){width: 31px;}
-.list_wrap ul li a dl .legality>div:nth-of-type(8)>.text_after{left: -31px;}
-.list_wrap ul li:hover a dl .legality>div:nth-of-type(8)>.text_after{left: 0;}
-.list_wrap ul li:hover a dl .legality>div:nth-of-type(8)>.text_before{left: 31px;}
+.list_wrap ul li a dl .acg>div:nth-of-type(3){width: 38px;}
+.list_wrap ul li a dl .acg>div:nth-of-type(3)>.text_after{left: -38px;}
+.list_wrap ul li:hover a dl .acg>div:nth-of-type(3)>.text_after{left: 0;}
+.list_wrap ul li:hover a dl .acg>div:nth-of-type(3)>.text_before{left: 38px;}
 
-/* security */
+/* 사이즈 재기용 테스트와 프로젝트 추가 시 넣을 예시 */
+/* security
 .list_wrap ul li a dl .security{
   margin-left: 81px;
 }
-/* 1 */
+1
 .list_wrap ul li a dl .security>div:nth-of-type(1){width: 29px;}
 .list_wrap ul li a dl .security>div:nth-of-type(1)>.text_after{left: -29px;}
 .list_wrap ul li:hover a dl .security>div:nth-of-type(1)>.text_after{left: 0;}
 .list_wrap ul li:hover a dl .security>div:nth-of-type(1)>.text_before{left: 29px;}
-/* 2 */
+2
 .list_wrap ul li a dl .security>div:nth-of-type(2){width: 27px;}
 .list_wrap ul li a dl .security>div:nth-of-type(2)>.text_after{left: -27px;}
 .list_wrap ul li:hover a dl .security>div:nth-of-type(2)>.text_after{left: 0;}
 .list_wrap ul li:hover a dl .security>div:nth-of-type(2)>.text_before{left: 27px;}
-/* 3 */
+3
 .list_wrap ul li a dl .security>div:nth-of-type(3){width: 32px;}
 .list_wrap ul li a dl .security>div:nth-of-type(3)>.text_after{left: -32px;}
 .list_wrap ul li:hover a dl .security>div:nth-of-type(3)>.text_after{left: 0;}
 .list_wrap ul li:hover a dl .security>div:nth-of-type(3)>.text_before{left: 32px;}
-/* 4 */
+4
 .list_wrap ul li a dl .security>div:nth-of-type(4){width: 37px;}
 .list_wrap ul li a dl .security>div:nth-of-type(4)>.text_after{left: -37px;}
 .list_wrap ul li:hover a dl .security>div:nth-of-type(4)>.text_after{left: 0;}
 .list_wrap ul li:hover a dl .security>div:nth-of-type(4)>.text_before{left: 37px;}
-/* 5 */
+5
 .list_wrap ul li a dl .security>div:nth-of-type(5){width: 33px;}
 .list_wrap ul li a dl .security>div:nth-of-type(5)>.text_after{left: -33px;}
 .list_wrap ul li:hover a dl .security>div:nth-of-type(5)>.text_after{left: 0;}
 .list_wrap ul li:hover a dl .security>div:nth-of-type(5)>.text_before{left: 33px;}
-/* 6 */
+6
 .list_wrap ul li a dl .security>div:nth-of-type(6){width: 18px;}
 .list_wrap ul li a dl .security>div:nth-of-type(6)>.text_after{left: -18px;}
 .list_wrap ul li:hover a dl .security>div:nth-of-type(6)>.text_after{left: 0;}
 .list_wrap ul li:hover a dl .security>div:nth-of-type(6)>.text_before{left: 18px;}
-/* 7 */
+7
 .list_wrap ul li a dl .security>div:nth-of-type(7){width: 30px;}
 .list_wrap ul li a dl .security>div:nth-of-type(7)>.text_after{left: -30px;}
 .list_wrap ul li:hover a dl .security>div:nth-of-type(7)>.text_after{left: 0;}
 .list_wrap ul li:hover a dl .security>div:nth-of-type(7)>.text_before{left: 30px;}
-/* 8 */
+8
 .list_wrap ul li a dl .security>div:nth-of-type(8){width: 31px;}
 .list_wrap ul li a dl .security>div:nth-of-type(8)>.text_after{left: -31px;}
 .list_wrap ul li:hover a dl .security>div:nth-of-type(8)>.text_after{left: 0;}
 .list_wrap ul li:hover a dl .security>div:nth-of-type(8)>.text_before{left: 31px;}
-
 .test>div{
   display: inline-block;
 }
+ */
 
 .list_wrap ul li dl dd{
   display: block;
