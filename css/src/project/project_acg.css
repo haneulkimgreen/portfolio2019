@@ -57,9 +57,11 @@ section>div{
   background-color: #333;
 }
 .section_01{
-  height: 1238px;
+  height: 902px;
 }
-
+.section_02{
+  height: 1908px;
+}
 /* .intro_wrap */
 .intro_wrap{
   width: 100%;
