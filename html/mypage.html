@@ -35,7 +35,7 @@
           <span class="hidden">로고</span> 
         </a>
       </h1>
-      <button type="button">resume</button>
+      <button type="button" class="resume">resume</button>
     </header>
     <!-- //headBox -->
     <section id="container">
@@ -59,12 +59,12 @@
               <i></i>
             </a>
           </li>
-          <li>
-            <a href="#">
-              <span class="hidden">이미지4 인디케이터</span><span class="indi_border_tl"></span><span class="indi_border_tr"></span><span class="indi_border_bl"></span><span class="indi_border_br"></span>
-              <i></i>
-            </a>
-          </li>
+         <!--  <li>
+           <a href="#">
+             <span class="hidden">이미지4 인디케이터</span><span class="indi_border_tl"></span><span class="indi_border_tr"></span><span class="indi_border_bl"></span><span class="indi_border_br"></span>
+             <i></i>
+           </a>
+         </li> -->
         </ul>
         <button type="button">
           <i class="fa fa-pause-circle">
@@ -75,10 +75,10 @@
       <!-- //indicator_wrap -->
       <ul class="slide_wrap">
         <h2 class="hidden">슬라이드 이미지</h2>
-        <li class="slide_list img_list_01"><span>이미지1</span></li>
-        <li class="slide_list img_list_02"><span>이미지2</span></li>
-        <li class="slide_list img_list_03"><span>이미지3</span></li>
-        <li class="slide_list img_list_04"><span>이미지4</span></li>
+        <li class="slide_list backimg img_list_01"><span class="hidden">와이지 메인 이미지</span></li>
+        <li class="slide_list backimg img_list_02"><span class="hidden">불라툰 메인 이미지</span></li>
+        <li class="slide_list backimg img_list_03"><span class="hidden">에센컨설팅그룹 메인 이미지</span></li>
+        <!-- <li class="slide_list img_list_04"><span>이미지4</span></li> -->
       </ul>
       <!-- //slide_wrap -->
       <div class="list_contain">
@@ -88,7 +88,7 @@
             <li>
               <a href="project/project_yg.html">
                 <dl>
-                  <div class="list_img"></div>
+                  <div class="thumb_img backimg thumb_yg"><span class="hidden">와이지썸네일</span></div>
                   <dt class="ygenter">
                     <div class="text_wrap">
                       <div class="text_after">Y</div>
@@ -130,7 +130,7 @@
             <li>
               <a href="project/project_boolatoon.html">
                 <dl>
-                  <div class="list_img"></div>
+                  <div class="thumb_img backimg thumb_boolatoon"><span class="hidden">불라툰썸네일</span></div>
                   <dt class="boolatoon">
                     <div class="text_wrap">
                       <div class="text_after">B</div>
@@ -176,7 +176,7 @@
             <li>
               <a href="project/project_acg.html">
                 <dl>
-                  <div class="list_img"></div>
+                  <div class="thumb_img backimg thumb_acg"><span class="hidden">에센컨설팅그룹썸네일</span></div>
                   <dt class="acg">
                     <div class="text_wrap">
                       <div class="text_after">A</div>
@@ -199,7 +199,7 @@
             <!-- <li>
               <a href="#">
                 <dl>
-                  <div class="list_img"></div>
+                  <div class="thumb_img backimg"></div>
                   <dt class="security">
                     <div class="text_wrap">
                       <div class="text_after">S</div>
@@ -259,10 +259,18 @@
       <!-- //btn -->
     </section>
     <!-- //container -->
-    <!-- <footer id="footBox">
-      <address>주소 등등</address>
-    </footer>
-    //footBox -->
+    <div class="reume_modal">
+      <div class="pdf_wrap">
+        <img src="../img/resume/resume.jpg" alt="" style="width: 100%">
+      </div>
+      <div class="close_btn">
+        <span class="hidden">이력서 닫기</span>
+        <button type="button">
+          <i class="fa fa-times"></i>
+        </button>
+      </div>
+    </div>
+    <!-- //reume_modal -->
   </div>
   <!-- //wrap -->
   <!-- script -->

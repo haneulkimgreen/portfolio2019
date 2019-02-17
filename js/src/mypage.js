@@ -53,6 +53,7 @@
       slideUl.stop().animate({left:-i*100+'%'});
     }
     // console.log(myIndex);
+
     myIndex = i;
     indiLi.removeClass('focus');
     var slideIndex = slideLi.eq(i);
@@ -110,10 +111,6 @@
   });
 
 
-
-
-
-
   // 글자 hover 효과
 /*  var listWrapLi = $('.list_wrap').childeren('ul').children('li');
   var listWrapLi1 = listWrapLi.eq(0);
@@ -124,5 +121,24 @@
   listWrapLi1.on('mouseenter', function(e) {
     e.preventDefault();
   });*/
+
+// 우측 상단 resume버튼 클릭시 이력서 나오고 x버튼, 이력서 클릭시 없어짐.
+var resume = $('.resume');
+var resumeModal = $('.reume_modal');
+var closeBtn = $('.close_btn');
+resume.on('click', function(e){
+  e.preventDefault();
+  resumeModal.slideDown();
+});
+closeBtn.on('click', function(e){
+  e.preventDefault();
+  resumeModal.slideUp();
+});
+resumeModal.on('click', function(e){
+  e.preventDefault();
+  resumeModal.slideUp();
+});
+
+
 
 })(this.jQuery);
