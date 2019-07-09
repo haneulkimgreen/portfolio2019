@@ -1,0 +1,116 @@
+/* project_output.css */
+body,html{width: 100%; height: 100%; font-family: 'NanumBarunGothic', 'serif'}
+#wrap{overflow-y: hidden; width: 100%; height: auto; background-color: #141414;}
+#headBox{
+  position: relative;
+  width: 100%;
+  height: 90px;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #ececec;
+}
+#headBox h1{
+  float: left;
+  width: 150px;
+  height: 50px;
+  background-color: #232323;
+}
+#headBox h1 a{
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+#headBox .page_name{
+  position: absolute;
+  width: 400px;
+  height: 50px;
+  top: 0;
+  left: 50%;
+  margin-top: 20px;
+  margin-left: -500px;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 50px;
+}
+#headBox .page_name::selection{
+  background-color: #333;
+  color: #fff;
+}
+#headBox button{
+  float: right;
+  width: 150px;
+  height: 50px;
+  background-color: #232323;
+  font-size: 13px;
+  color: #fff;
+}
+/* //headBox */
+section{
+  width: 1600px;
+  height: 3000px;
+  margin: 0 auto;
+}
+.project_wrap{
+  width: 100%;
+  height: 100%;
+  padding-top: 140px;
+  box-sizing: border-box;
+}
+.project_row{
+  width: 100%;
+  height: 150px;
+}
+.row_01,.row_02{
+  margin-bottom: 70px;
+}
+.project_item{
+  float: left;
+  width: 265px;
+  height: 150px;
+  margin-right: 2px;
+  background-color: #ddd;
+  transition: all 500ms ease;
+}
+.project_item a{
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+.project_item img{
+  width: 100%;
+  height: 100%;
+}
+.project_row>.project_item:nth-child(6){
+  margin-right: 0;
+}
+/* item영역에 hover시 효과 관련된 css */
+.item_hover{
+  transform: scale3d(1.9, 1.9, 1);
+}
+.item_move01{
+  transform: translate3d(120px, 0, 0);
+}
+.item_move02{
+  transform: translate3d(240px, 0, 0);
+}
+.item_move03{
+  transform: translate3d(-120px, 0, 0);
+}
+.item_move04{
+  transform: translate3d(-240px, 0, 0);
+}
+.item_info{
+  display: none;
+}
+/* 줄 양끝 기준 잡기 위한 코드 */
+.item_eff01{
+  transform: translate3d(120px, 0, 0) scale3d(1.9, 1.9, 1);
+}
+.item_eff02{
+  transform: translate3d(-120px, 0, 0) scale3d(1.9, 1.9, 1);
+}
+/* //줄 양끝 기준 잡기 위한 코드 */
+/* //item영역에 hover시 효과 관련된 css */
+
+
+/* //section */
