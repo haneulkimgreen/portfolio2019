@@ -226,6 +226,48 @@ body,html{width: 100%; height: 100%;}
   transition: all 300ms ease;
 }
 /* 글자 hover 효과 */
+/* project(output) */
+.list_wrap ul li a dl .output{
+  margin-left: 76px;
+}
+/* 글자별 가로 크기 */
+.list_wrap ul li a dl .output>div:nth-of-type(1){width: 31px;}
+/* 글자 크기만큼 after 마이너스 */
+.list_wrap ul li a dl .output>div:nth-of-type(1)>.text_after{left: -31px;}
+/* 호버일때 after는 0, before은 hover전 after를 -한것만큼 + */
+.list_wrap ul li:hover a dl .output>div:nth-of-type(1)>.text_after{left: 0;}
+.list_wrap ul li:hover a dl .output>div:nth-of-type(1)>.text_before{left: 31px;}
+/* 2 */
+.list_wrap ul li a dl .output>div:nth-of-type(2){width: 33px;}
+.list_wrap ul li a dl .output>div:nth-of-type(2)>.text_after{left: -33px;}
+.list_wrap ul li:hover a dl .output>div:nth-of-type(2)>.text_after{left: 0;}
+.list_wrap ul li:hover a dl .output>div:nth-of-type(2)>.text_before{left: 33px;}
+/* 3 */
+.list_wrap ul li a dl .output>div:nth-of-type(3){width: 39px;}
+.list_wrap ul li a dl .output>div:nth-of-type(3)>.text_after{left: -39px;}
+.list_wrap ul li:hover a dl .output>div:nth-of-type(3)>.text_after{left: 0;}
+.list_wrap ul li:hover a dl .output>div:nth-of-type(3)>.text_before{left: 39px;}
+/* 4 */
+.list_wrap ul li a dl .output>div:nth-of-type(4){width: 26px;}
+.list_wrap ul li a dl .output>div:nth-of-type(4)>.text_after{left: -26px;}
+.list_wrap ul li:hover a dl .output>div:nth-of-type(4)>.text_after{left: 0;}
+.list_wrap ul li:hover a dl .output>div:nth-of-type(4)>.text_before{left: 26px;}
+/* 5 */
+.list_wrap ul li a dl .output>div:nth-of-type(5){width: 25.5px;}
+.list_wrap ul li a dl .output>div:nth-of-type(5)>.text_after{left: -25.5px;}
+.list_wrap ul li:hover a dl .output>div:nth-of-type(5)>.text_after{left: 0;}
+.list_wrap ul li:hover a dl .output>div:nth-of-type(5)>.text_before{left: 25.5px;}
+/* 6 */
+.list_wrap ul li a dl .output>div:nth-of-type(6){width: 37px;}
+.list_wrap ul li a dl .output>div:nth-of-type(6)>.text_after{left: -37px;}
+.list_wrap ul li:hover a dl .output>div:nth-of-type(6)>.text_after{left: 0;}
+.list_wrap ul li:hover a dl .output>div:nth-of-type(6)>.text_before{left: 37px;}
+/* 7 */
+.list_wrap ul li a dl .output>div:nth-of-type(7){width: 30px;}
+.list_wrap ul li a dl .output>div:nth-of-type(7)>.text_after{left: -30px;}
+.list_wrap ul li:hover a dl .output>div:nth-of-type(7)>.text_after{left: 0;}
+.list_wrap ul li:hover a dl .output>div:nth-of-type(7)>.text_before{left: 30px;}
+
 /* YG ENTER */
 .list_wrap ul li a dl .ygenter{
   margin-left: 76px;
@@ -402,6 +444,9 @@ body,html{width: 100%; height: 100%;}
   width: 400px;
   height: 225px;
   background-color: #232323;
+}
+.thumb_output{
+
 }
 .thumb_yg{
   background-image: url('../../img/main/thumb_yg.jpg');
