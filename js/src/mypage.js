@@ -122,7 +122,9 @@
     e.preventDefault();
   });*/
 
+// 이력서 보기 버튼을 메인페이지에서 output페이지로 옮김.
 // 우측 상단 resume버튼 클릭시 이력서 나오고 x버튼, 이력서 클릭시 없어짐.
+/*
 var resume = $('.resume');
 var resumeModal = $('.reume_modal');
 var closeBtn = $('.close_btn');
@@ -138,6 +140,7 @@ resumeModal.on('click', function(e){
   e.preventDefault();
   resumeModal.slideUp();
 });
+*/
 
 
 

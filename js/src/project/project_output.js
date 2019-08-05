@@ -143,8 +143,20 @@
   });
 
 
-
-
+  // 이력서 기능
+  /* 이력서 일단 없앰
+  var resume = $('.resume');
+  var resumeModal = $('.reume_modal');
+  var closeBtn = $('.close_btn');
+  resume.on('click', function(e){
+    e.preventDefault();
+    resumeModal.slideDown();
+  });
+  closeBtn.on('click', function(e){
+    e.preventDefault();
+    resumeModal.slideUp();
+  });
+  */
 
 
     // $(this).siblings('div').css({transform: 'translate3d(250px, 0, 0)'});

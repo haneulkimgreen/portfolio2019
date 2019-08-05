@@ -1,0 +1,75 @@
+/* project_netflix.css */
+body,html{width: 100%; height: 100%; font-family: 'NanumBarunGothic', 'serif'}
+#wrap{overflow-y: hidden; position: absolute; width: 100%; height: 100%; background-color: #fff;}
+#videoWrap{
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+}
+/* //videoWrap */
+.video_controller{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.player_wrap{
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  background-color: rgba(255, 255, 255, 0);
+  bottom: 0;
+  left: 0;
+  padding-bottom: 10px;
+  box-sizing: border-box;
+}
+.player_wrap button{
+  float: left;
+  width: 90px;
+  height: 90px;
+  background-color: rgba(0,0,0,0);
+  color: #fff;
+}
+.player_wrap button i{
+  transition: all 200ms ease;
+}
+.player_wrap button:hover i{
+  transform: scale3d(1.3, 1.3, 1);
+}
+.player_wrap div{
+  float: left;
+}
+.player_title{
+  width: calc(100% - 540px);
+  height: 90px;
+  line-height: 90px;
+  font-size: 20px;
+  font-weight:  bold;
+  color: #fff;
+}
+.player_play{
+  font-size: 30px;
+}
+.player_pause{
+  display: none;
+  font-size: 30px;
+}
+.player_back{
+  font-size: 30px;
+}
+.player_forward{
+  font-size: 30px;
+}
+.player_question{
+  font-size: 42px;
+}
+.player_bubble{
+  width: 90px;
+  height: 90px;
+  font-size: 40px;
+}
+.player_screen{
+  font-size: 40px;
+}
+/* //video_controller */ 
